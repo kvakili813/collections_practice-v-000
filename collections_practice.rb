@@ -20,7 +20,7 @@ def reverse_array(integers)
 end
 
 def kesha_maker(strings)
-  strings.each do |kesha|
+  strings.collect do |kesha|
     kesha.gsub("str[3]","$")
   end
 end
