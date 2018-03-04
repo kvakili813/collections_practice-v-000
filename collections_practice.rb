@@ -31,4 +31,9 @@ fruit.start_with?("a")
   end
 end
 
-
+def sum_array(total)
+  total.each do |sum|
+    sum.sum
+  end
+end
+    
