@@ -23,4 +23,5 @@ def kesha_maker(strings)
   strings.collect do |kesha|
     kesha.gsub(str[3],"$")
   end
+  kesha_maker
 end
