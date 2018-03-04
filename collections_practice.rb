@@ -24,3 +24,6 @@ def kesha_maker(strings)
     kesha.gsub(kesha[2],"$")
   end
 end
+
+def find_a(array)
+array.start_with?("a")
