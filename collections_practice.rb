@@ -38,5 +38,5 @@ def sum_array(total)
   end
 
 def add_s(plural)
-  plural.each_with_index.collect
+  plural.each_with_index.collect do |multiple|
 end
