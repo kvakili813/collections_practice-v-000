@@ -39,9 +39,9 @@ def sum_array(total)
 
 def add_s(plural)
   plural.each_with_index.collect do |multiple|
-    multiple + "s"
     if multiple == "feet"
       return multiple
     end
+    multiple + "s"
   end
 end
