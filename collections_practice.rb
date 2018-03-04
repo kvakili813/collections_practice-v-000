@@ -30,3 +30,5 @@ def find_a(array)
 fruit.start_with?("a")
   end
 end
+
+
