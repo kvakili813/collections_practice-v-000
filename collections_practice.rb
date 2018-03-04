@@ -26,7 +26,7 @@ def kesha_maker(strings)
 end
 
 def find_a(array)
-  array.detect do |fruit|
+  array.select do |fruit|
 fruit.start_with?("a")
   end
 end
