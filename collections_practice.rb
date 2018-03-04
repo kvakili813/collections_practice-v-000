@@ -36,4 +36,3 @@ def sum_array(total)
     sum.sum
   end
 end
-    
