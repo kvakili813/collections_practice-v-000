@@ -33,6 +33,6 @@ end
 
 def sum_array(total)
   sum = 0
-  total.each_char { |number| sum+=number }
+  total.each { |number| sum+=number }
   end
 end
