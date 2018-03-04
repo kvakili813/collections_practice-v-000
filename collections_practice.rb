@@ -37,6 +37,6 @@ def sum_array(total)
   sum
   end
 
-def adding_s(plural)
+def add_s(plural)
   plural.each_with_index.collect
 end
