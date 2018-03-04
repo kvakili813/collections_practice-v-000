@@ -28,4 +28,5 @@ end
 def find_a(array)
   array.detect do |fruit|
 fruit.start_with?("a")
+  end
 end
