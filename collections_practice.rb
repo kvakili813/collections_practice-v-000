@@ -41,7 +41,8 @@ def add_s(plural)
   plural.each_with_index.collect do |multiple|
     if multiple == "feet"
       return multiple
-    end
+    else
     multiple + "s"
+    end
   end
 end
