@@ -33,6 +33,6 @@ end
 
 def sum_array(total)
   total.each do |sum|
-    sum.sum
+    sum.sum(total)
   end
 end
